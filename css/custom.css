@@ -1,0 +1,66 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.page-header {
+	border-bottom: 0px !important;
+}
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+	font-family: "Open Sans" !important;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -60px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 60px; /* .push must be the same height as .footer */
+}
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+td.logo-text {
+	font-family: "Open Sans" !important;
+	text-transform: uppercase !important;
+}
+td.box {
+	padding: 20px 20px 20px 20px;
+	/* margin: 10px; */
+	text-align: center;
+}
+td.tableBox {
+	vertical-align: text-top;
+	/* border: 1px solid black; */
+	padding: 20px 20px 20px 20px;
+	margin:  20px 20px 20px 20px;
+	/* border-radius: 15px 15px 15px 15px;
+    border: 1px solid #73AD21; */
+}
+
+table.studentGrades {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+studentGrades.td, studentGrades.th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+studentGrades.tr:nth-child(even){background-color: #f2f2f2;}
+
+studentGrades.tr:hover {background-color: #ddd;}
+
+studentGrades.th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #FF3399;
+    color: white;
+}

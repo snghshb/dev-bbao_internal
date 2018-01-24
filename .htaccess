@@ -1,0 +1,2 @@
+DirectoryIndex login.php
+ErrorDocument 404 /bbao_internal/error_pages/404.php

@@ -1,0 +1,31 @@
+<h3>Edit grade for student 
+<?php echo $_GET['UIN']; ?>
+ for course entry
+<?php echo $_GET['recordID']; ?>
+</h3>
+<hr />
+<div align="center">
+<table width="80%">
+<tr>
+<td>
+<?php
+//echo "studentEditGrade.php<br />";
+if (isset($_GET['UIN']) && is_numeric($_GET['UIN']) && $_GET['UIN'] > 0 && isset($_GET['recordID']) && is_numeric($_GET['recordID']) && $_GET['recordID'] > 0) {
+	$UIN=$_GET['UIN'];
+	$recordID=$_GET['recordID'];
+}
+
+?>
+
+https://www.webmasterworld.com/forum88/5179.htm
+
+https://github.com/dompdf/dompdf
+
+https://wkhtmltopdf.org/
+
+https://stackoverflow.com/questions/391005/convert-html-css-to-pdf-with-php
+
+https://www.sanwebe.com/2013/04/capture-array-values-from-dynamic-input-fields-using-php
+
+https://www.youtube.com/watch?v=rVmZXJj5lH0
+http://techstream.org/Web-Development/PHP/Dynamic-Form-Processing-with-PHP
